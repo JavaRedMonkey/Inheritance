@@ -7,7 +7,7 @@ Door belarusDoor = new Door(
         1,
         2,
         "wood",
-        "white",
+        Color.WHITE,
         "modern",
         true ,
         true ,

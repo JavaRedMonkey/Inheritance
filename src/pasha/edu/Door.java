@@ -8,7 +8,7 @@ public class Door {
     private int width;
     private int length;
     private String material;
-    private String color;
+    private Color color;
     private String decoration;
     private Boolean hasLock;
     private Boolean handle;
@@ -18,7 +18,7 @@ public class Door {
     public Door() {
     }
 
-    public Door(int width, int length, String material, String color, String decoration, Boolean hasLock, Boolean handle, Boolean sealingRubber, DoorType type) {
+    public Door(int width, int length, String material, Color color, String decoration, Boolean hasLock, Boolean handle, Boolean sealingRubber, DoorType type) {
         this.width = width;
         this.length = length;
         this.material = material;
@@ -54,11 +54,11 @@ public class Door {
         this.material = material;
     }
 
-    public String getColor() {
+    public Color getColor() {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor(Color color) {
         this.color = color;
     }
 
@@ -108,7 +108,7 @@ public class Door {
                 "width=" + width +
                 ", length=" + length +
                 ", material='" + material + '\'' +
-                ", color='" + color + '\'' +
+                ", color=" + color +
                 ", decoration='" + decoration + '\'' +
                 ", hasLock=" + hasLock +
                 ", handle=" + handle +
